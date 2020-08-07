@@ -21,5 +21,5 @@ BoardMember.prototype.releasePressStatement  = function() {
 }
 
 BoardMember.prototype.sayHi  = function() {
-  return 'No, I must disagree'
+  return `Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.`
 }
